@@ -1,0 +1,44 @@
+# --- Laravel & Environment Files (HARUS DI-IGNORE) ---
+# Environment files (mengandung kredensial DB dan API keys)
+.env
+.env.backup
+.env.production
+.env.staging
+.env.testing
+
+# Temporary files and logs
+*.log
+*.sql
+*.sqlite
+/storage/*.key
+/storage/pail
+/storage/*.sqlite
+/bootstrap/cache/*.php
+
+# Cache files
+.phpunit.result.cache
+/.phpunit.cache
+/.laravel-enso
+/auth.json
+Homestead.json
+Homestead.yaml
+
+# --- Vendor & Dependencies (HANYA SIMPAN CODE) ---
+/vendor
+/node_modules
+
+# --- Frontend Assets (Generated files) ---
+/public/build
+/public/hot
+/public/storage 
+# Note: public/storage adalah symlink, isinya harus di-ignore
+
+# --- OS & IDE Specific Files ---
+.DS_Store
+Thumbs.db
+/.idea
+/.vscode
+/.zed
+/.nova
+/.fleet
+.phpactor.json
