@@ -11,7 +11,7 @@ Install my-project with npm
 ```bash
 # Kloning repositori ini
 git clone https://github.com/CUKLIZ/api-laravel-lat.git
-cd [NAMA api-laravel-lat]
+cd api-laravel-lat
 
 # Instal dependensi PHP (Composer)
 composer install
